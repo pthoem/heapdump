@@ -1,0 +1,123 @@
+ heapdump
+
+ Timestamp is 5ad474b7 (Mon Apr 16 12:02:31 2018)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000016a4H .text                   CODE
+ 0002:00000000 00000070H .idata$5                DATA
+ 0002:00000070 00000054H .rdata                  DATA
+ 0002:000000c4 00000014H .idata$2                DATA
+ 0002:000000d8 00000014H .idata$3                DATA
+ 0002:000000ec 00000070H .idata$4                DATA
+ 0002:0000015c 00000158H .idata$6                DATA
+ 0002:000002b4 00000000H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000004H .CRT$XIA                DATA
+ 0003:0000000c 00000004H .CRT$XIZ                DATA
+ 0003:00000010 000010e4H .data                   DATA
+ 0003:000010f8 00000068H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       ?usage@@YAXXZ              00401000 f   ConsoleApp.obj
+ 0001:00000036       _main                      00401036 f   ConsoleApp.obj
+ 0001:00000950       ?init_stack__@@YAXXZ       00401950 f   heapdump.obj
+ 0001:000009d2       _init_heapdump             004019d2 f   heapdump.obj
+ 0001:00000b3a       _get_memory_dimenions      00401b3a f   heapdump.obj
+ 0001:00000b94       _get_heap_bottom_chunk     00401b94 f   heapdump.obj
+ 0001:00000bcd       _get_current_contiguous_heap_limit 00401bcd f   heapdump.obj
+ 0001:00000c4c       _get_allocated_chunk_size  00401c4c f   heapdump.obj
+ 0001:00000c9b       _get_allocated_payload_size 00401c9b f   heapdump.obj
+ 0001:00000cb7       _dump_heap_footprint       00401cb7 f   heapdump.obj
+ 0001:00000f8c       _dump_heap_details         00401f8c f   heapdump.obj
+ 0001:00000fe7       _dump_heap_hex             00401fe7 f   heapdump.obj
+ 0001:00001205       _dump_heap_raw             00402205 f   heapdump.obj
+ 0001:000012c0       ?dump_chunk@@YAXPAII@Z     004022c0 f i heapdump.obj
+ 0001:00001480       ?human_readable__@@YADD@Z  00402480 f i heapdump.obj
+ 0001:000014ac       _printf                    004024ac f   MSVCRT:MSVCRT.dll
+ 0001:000014b2       _getchar                   004024b2 f   MSVCRT:MSVCRT.dll
+ 0001:000014b8       _malloc                    004024b8 f   MSVCRT:MSVCRT.dll
+ 0001:000014be       _fflush                    004024be f   MSVCRT:MSVCRT.dll
+ 0001:000014c4       _strtoul                   004024c4 f   MSVCRT:MSVCRT.dll
+ 0001:000014ca       _strtod                    004024ca f   MSVCRT:MSVCRT.dll
+ 0001:000014d0       _free                      004024d0 f   MSVCRT:MSVCRT.dll
+ 0001:000014d6       _strcmp                    004024d6 f   MSVCRT:MSVCRT.dll
+ 0001:000014e0       __ftol                     004024e0 f   MSVCRT:MSVCRT.dll
+ 0001:000014e6       __heapwalk                 004024e6 f   MSVCRT:MSVCRT.dll
+ 0001:000014ec       __msize                    004024ec f   MSVCRT:MSVCRT.dll
+ 0001:000014f2       _mainCRTStartup            004024f2 f   MSVCRT:crtexe.obj
+ 0001:00001602       __exit                     00402602 f   MSVCRT:MSVCRT.dll
+ 0001:00001608       __XcptFilter               00402608 f   MSVCRT:MSVCRT.dll
+ 0001:0000160e       _exit                      0040260e f   MSVCRT:MSVCRT.dll
+ 0001:00001614       ___p___initenv             00402614 f   MSVCRT:MSVCRT.dll
+ 0001:0000161a       ___getmainargs             0040261a f   MSVCRT:MSVCRT.dll
+ 0001:00001620       __initterm                 00402620 f   MSVCRT:MSVCRT.dll
+ 0001:00001626       __setdefaultprecision      00402626 f   MSVCRT:fp8.obj
+ 0001:00001638       ___setusermatherr          00402638 f   MSVCRT:MSVCRT.dll
+ 0001:0000163e       __matherr                  0040263e f   MSVCRT:merr.obj
+ 0001:00001641       __setargv                  00402641 f   MSVCRT:dllargv.obj
+ 0001:00001642       ___p__commode              00402642 f   MSVCRT:MSVCRT.dll
+ 0001:00001648       ___p__fmode                00402648 f   MSVCRT:MSVCRT.dll
+ 0001:0000164e       __onexit                   0040264e f   MSVCRT:atonexit.obj
+ 0001:0000167a       _atexit                    0040267a f   MSVCRT:atonexit.obj
+ 0001:0000168c       ___set_app_type            0040268c f   MSVCRT:MSVCRT.dll
+ 0001:00001692       __except_handler3          00402692 f   MSVCRT:MSVCRT.dll
+ 0001:00001698       __controlfp                00402698 f   MSVCRT:MSVCRT.dll
+ 0001:0000169e       ___dllonexit               0040269e f   MSVCRT:MSVCRT.dll
+ 0002:00000000       __imp__exit                00403000     MSVCRT:MSVCRT.dll
+ 0002:00000004       __imp__getchar             00403004     MSVCRT:MSVCRT.dll
+ 0002:00000008       __imp__malloc              00403008     MSVCRT:MSVCRT.dll
+ 0002:0000000c       __imp__fflush              0040300c     MSVCRT:MSVCRT.dll
+ 0002:00000010       __imp___iob                00403010     MSVCRT:MSVCRT.dll
+ 0002:00000014       __imp__strtoul             00403014     MSVCRT:MSVCRT.dll
+ 0002:00000018       __imp__strtod              00403018     MSVCRT:MSVCRT.dll
+ 0002:0000001c       __imp__free                0040301c     MSVCRT:MSVCRT.dll
+ 0002:00000020       __imp__strcmp              00403020     MSVCRT:MSVCRT.dll
+ 0002:00000024       __imp___ftol               00403024     MSVCRT:MSVCRT.dll
+ 0002:00000028       __imp___heapwalk           00403028     MSVCRT:MSVCRT.dll
+ 0002:0000002c       __imp___msize              0040302c     MSVCRT:MSVCRT.dll
+ 0002:00000030       __imp___exit               00403030     MSVCRT:MSVCRT.dll
+ 0002:00000034       __imp___XcptFilter         00403034     MSVCRT:MSVCRT.dll
+ 0002:00000038       __imp__printf              00403038     MSVCRT:MSVCRT.dll
+ 0002:0000003c       __imp____p___initenv       0040303c     MSVCRT:MSVCRT.dll
+ 0002:00000040       __imp____getmainargs       00403040     MSVCRT:MSVCRT.dll
+ 0002:00000044       __imp___initterm           00403044     MSVCRT:MSVCRT.dll
+ 0002:00000048       __imp____setusermatherr    00403048     MSVCRT:MSVCRT.dll
+ 0002:0000004c       __imp___adjust_fdiv        0040304c     MSVCRT:MSVCRT.dll
+ 0002:00000050       __imp____p__commode        00403050     MSVCRT:MSVCRT.dll
+ 0002:00000054       __imp____p__fmode          00403054     MSVCRT:MSVCRT.dll
+ 0002:00000058       __imp____set_app_type      00403058     MSVCRT:MSVCRT.dll
+ 0002:0000005c       __imp___except_handler3    0040305c     MSVCRT:MSVCRT.dll
+ 0002:00000060       __imp___controlfp          00403060     MSVCRT:MSVCRT.dll
+ 0002:00000064       __imp____dllonexit         00403064     MSVCRT:MSVCRT.dll
+ 0002:00000068       __imp___onexit             00403068     MSVCRT:MSVCRT.dll
+ 0002:0000006c       \177MSVCRT_NULL_THUNK_DATA 0040306c     MSVCRT:MSVCRT.dll
+ 0002:000000a8       __real@8@40098000000000000000 004030a8     ConsoleApp.obj
+ 0002:000000b0       __real@8@00000000000000000000 004030b0     ConsoleApp.obj
+ 0002:000000c4       __IMPORT_DESCRIPTOR_MSVCRT 004030c4     MSVCRT:MSVCRT.dll
+ 0002:000000d8       __NULL_IMPORT_DESCRIPTOR   004030d8     MSVCRT:MSVCRT.dll
+ 0003:00000000       ___xc_a                    00404000     MSVCRT:cinitexe.obj
+ 0003:00000004       ___xc_z                    00404004     MSVCRT:cinitexe.obj
+ 0003:00000008       ___xi_a                    00404008     MSVCRT:cinitexe.obj
+ 0003:0000000c       ___xi_z                    0040400c     MSVCRT:cinitexe.obj
+ 0003:0000100c       ??_C@_0JN@NBMF@?5?50x?$CF08X?5?$CL?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?5?$CFu@ 0040500c     heapdump.obj
+ 0003:000010ac       ??_C@_0O@GOIL@?5BOTTOM?5CHUNK?$AA@ 004050ac     heapdump.obj
+ 0003:000010bc       ??_C@_0L@ECKD@?5TOP?5CHUNK?$AA@ 004050bc     heapdump.obj
+ 0003:000010c8       ??_C@_0CD@CELA@?5?5?5?5?5?5?5?5?5?5?5?5?5?$CL?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9?9@ 004050c8     heapdump.obj
+ 0003:000010f0       ___defaultmatherr          004050f0     MSVCRT:merr.obj
+ 0003:00001140       ??_C@_00A@?$AA@            00405140     heapdump.obj
+ 0003:00001144       __dowildcard               00405144     MSVCRT:wildcard.obj
+ 0003:00001148       __newmode                  00405148     MSVCRT:_newmode.obj
+ 0003:0000114c       __commode                  0040514c     MSVCRT:xncommod.obj
+ 0003:00001150       __fmode                    00405150     MSVCRT:xtxtmode.obj
+ 0003:00001154       ___onexitend               00405154     <common>
+ 0003:00001158       ___onexitbegin             00405158     <common>
+ 0003:0000115c       __adjust_fdiv              0040515c     <common>
+
+ entry point at        0001:000014f2
+
+ Static symbols
+
