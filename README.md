@@ -63,6 +63,7 @@ Weinbergstrasse 3a, D-54441 Ockfen/Germany
 
 
 ## License
+GPLv3, see license file
 
 ## Example output
 ```
